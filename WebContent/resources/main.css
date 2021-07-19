@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+body {
+	text-align: center;
+	background-color: #fefdef;
+}
+h1 {
+	color: #800000;
+	
+	padding-top: 20px;
+	
+}
+h2 {
+	text-align: center;
+	padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #e1e1e1}
+th {
+    background-color: #11b9d7;
+    color: white;
+}
+
+.link {
+	margin: 0;
+	border: 0;
+	background: none;
+	overflow: visible;
+	color: #800000;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a {
+	font-weight: bold;
+}
